@@ -1,6 +1,7 @@
-# AngularReddit
+# Angular Reddit
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
+To see a live demo [here](http://angular-reddit.s3-website-us-west-2.amazonaws.com/)
 
 ## Development server
 
