@@ -10,14 +10,17 @@ export class ArticleComponent implements OnInit {
   @HostBinding('attr.class') cssClass = 'row';
   @Input() article: Article;
 
-  constructor() {}
+  constructor() {
+    // article is populated by the Input now,
+    // so we don't need anything here
+  }
 
-  voteUp() {
+  voteUp(): boolean {
     this.article.voteUp();
     return false;
   }
 
-  voteDown() {
+  voteDown(): boolean {
     this.article.voteDown();
     return false;
   }
